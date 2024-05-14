@@ -1,0 +1,125 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: .2em 10rem .5rem;
+  margin: .25rem .25rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-self: flex-start;
+}
+#fs-frm fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid var(--primaryBlue);
+  background-color: var(--alabaster);
+  padding: 1em 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: var(--alabaster);
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: var(--primaryBlue);
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+  align-items: center;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: var(--buttonGreen);
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"] {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+}
+#fs-frm .button-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  #fs-frm input,
+  #fs-frm textarea {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  #fs-frm label {
+    align-self: initial;
+    font-size: 20px;
+    color: var(--alabaster);
+    width: 100%;
+  }
+  #fs-frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    #fs-frm {
+      width: 80%;
+    }
+}
+
+
+
+
