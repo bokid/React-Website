@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Website/static/css/main.90f4f745.css",
-    "main.js": "/React-Website/static/js/main.df324540.js",
+    "main.js": "/React-Website/static/js/main.89927eb9.js",
     "static/js/453.ed3810f9.chunk.js": "/React-Website/static/js/453.ed3810f9.chunk.js",
     "static/media/collaboration.jpg": "/React-Website/static/media/collaboration.68d80283f830f4c3d69f.jpg",
     "static/media/blog.jpg": "/React-Website/static/media/blog.22388c2683a208688db2.jpg",
     "static/media/projects3.jpg": "/React-Website/static/media/projects3.54d3946e1bf1237f865f.jpg",
+    "static/media/profile.jpg": "/React-Website/static/media/profile.8702afd9c02a5ad8b2d0.jpg",
     "static/media/projects1.jpg": "/React-Website/static/media/projects1.2f57d5915b46cb8a1a7a.jpg",
     "static/media/projects2.jpg": "/React-Website/static/media/projects2.aae8a39cb37bd8b7ad8a.jpg",
-    "static/media/profile.jpg": "/React-Website/static/media/profile.750de105f067a116d3f4.jpg",
     "index.html": "/React-Website/index.html",
     "main.90f4f745.css.map": "/React-Website/static/css/main.90f4f745.css.map",
-    "main.df324540.js.map": "/React-Website/static/js/main.df324540.js.map",
+    "main.89927eb9.js.map": "/React-Website/static/js/main.89927eb9.js.map",
     "453.ed3810f9.chunk.js.map": "/React-Website/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90f4f745.css",
-    "static/js/main.df324540.js"
+    "static/js/main.89927eb9.js"
   ]
 }
