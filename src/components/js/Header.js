@@ -25,7 +25,8 @@ const Header = () => {
                 return 'About';
             case '/contact':
                 return 'Contact';
-            default:
+            //default:
+            case '/React-Website':
                 return 'Home';
         }
     };
