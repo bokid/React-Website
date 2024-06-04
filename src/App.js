@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/React-Website" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
