@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   
-  "homepage": "http://bokid.github.io/ReactWebsite",
+  "homepage": "http://bokid.github.io/React-Website",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
