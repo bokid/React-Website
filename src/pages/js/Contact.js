@@ -4,7 +4,7 @@ import "../css/contact.css";
 const Contact = () => {
     return (
         <div className="form">
-            <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xdoqbjqj" method="post">
+            <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xnnaaapz" method="post">
             <fieldset id="fs-frm-inputs">
                 <label htmlFor="full-name">Full Name</label>
                 <input type="text" name="name" id="full-name" placeholder="First and Last" required />
