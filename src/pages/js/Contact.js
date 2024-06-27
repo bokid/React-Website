@@ -1,7 +1,10 @@
 import React from 'react';
 import "../css/contact.css";
 
+
+
 const Contact = () => {
+    event.preventDefault();
     return (
         <div className="form">
             <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xnnaaapz" method="post">
