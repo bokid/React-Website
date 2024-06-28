@@ -37,7 +37,7 @@ const Header = () => {
             <nav className={`navbar ${isOpen ? 'show' : ''}`}>
                 <ul>
                     <li><Link to="/React-Website" onClick={toggleMenu}>Home</Link></li>
-                    <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+                    {/* <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li> */}
                     <li><a href="https://github.com/bokid" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Github <ExternalLinkIcon /></a></li>
                     <li><a href="https://www.linkedin.com/in/benjamin-orr-46624b224//" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>LinkedIn <ExternalLinkIcon /></a></li>
                 {/* <li><a href="https://soundcloud.com/julianhenrymusic" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>SoundCloud <ExternalLinkIcon /></a></li> */}
